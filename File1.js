@@ -5,7 +5,7 @@
 
 const fs = require("fs")
 //create file
-fs.writeFile("hello-world.js","example",err=>{
+fs.writeFile("hello-world.js",err=>{
     if(err){
         console.log(err)
     } else {
@@ -23,7 +23,7 @@ fs.writeFile("welcome.txt","Hello Node",err=>{
 })
 
 //create file 3
-fs.writeFile("password.js","Hello Node",err=>{
+fs.writeFile("password.js",err=>{
     if(err){
         console.log(err)
     } else {
